@@ -1,0 +1,134 @@
+body{
+    background-color: #f8f9fa!important;
+}
+/* navbar header
+.navbar{
+    background-image: url('eng.jpeg');
+    
+}*/
+p{
+    color : whitesmoke;
+}
+
+.navbar-brand {
+  position: relative;
+  left: 5%;
+  top: 0px;
+  font-family: "Viaoda Libre", cursive;
+  font-size: 40px;
+  color: red;
+}
+span{
+    color: rgb(5, 92, 5);
+    text-decoration: underline;
+}
+/*footer*/
+
+.card-title{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(133, 8, 8);
+    font-family: 'Cinzel', serif;
+
+}
+.row{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+h1{
+    color: red; 
+    font-family: 'Cinzel', serif;
+    text-decoration: underline;
+}
+.navbar-toggler{
+    color: rgb(16, 214, 49);  
+}
+
+
+@media (min-width: 992px) {
+    h1{
+        margin-left: 44%;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    span{
+        font-size: 100px;
+    }
+    .card{
+        background-image: url('chicken1.jpeg');
+        background-repeat: no-repeat;
+        background-size: 500px ;   
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler {
+    position: relative;
+    margin-right: 50px;
+  }
+  .navbar-brand {
+    position: relative;
+    left: -10%;
+  }
+  /*footer*/
+  h1{
+    margin-left: 41%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.card{
+    margin-top: 3.5%;
+}
+.card{
+    background-image: url('chicken1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 720px ;   
+}
+
+}
+
+@media (min-width: 522px) and (max-width: 767px) {
+  .navbar-brand {
+    position: relative;
+    left: 0%;
+  }
+  .navbar-toggler {
+    position: relative;
+    margin-right: 20px;
+  }
+  h1{
+    margin-left: 41%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.card{
+    background-image: url('chicken1.jpeg');
+    background-repeat: no-repeat;
+    background-size: 500px ;   
+}
+.card{
+    margin-top: 3.5%;
+}
+}
+
+@media (max-width: 521px) {
+  .logo {
+    margin-left: 25%;
+    /*footer*/
+  }
+  .card{
+      margin-top: 5%;
+    }
+    h1{
+        margin-left: 35%;
+        margin-top: 2%;
+        margin-bottom: 5%;   
+    }
+    .card{
+        background-image: url('chicken1.jpeg');
+        background-repeat: no-repeat;
+        background-size: 500px ;   
+    }
+   
+}
