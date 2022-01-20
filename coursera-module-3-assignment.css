@@ -10,17 +10,20 @@ p{
     color : whitesmoke;
 }
 
+
 .navbar-brand {
   position: relative;
   left: 5%;
   top: 0px;
   font-family: "Viaoda Libre", cursive;
   font-size: 40px;
-  color: red;
+  
+ 
 }
 span{
     color: rgb(5, 92, 5);
     text-decoration: underline;
+    
 }
 /*footer*/
 
@@ -29,6 +32,7 @@ span{
     font-size: 30px;
     color: rgb(133, 8, 8);
     font-family: 'Cinzel', serif;
+    font-size: 40px;
 
 }
 .row{
@@ -37,13 +41,23 @@ span{
 }
 
 h1{
-    color: red; 
+    color:red; 
     font-family: 'Cinzel', serif;
     text-decoration: underline;
 }
-.navbar-toggler{
-    color: rgb(16, 214, 49);  
+.nav-link{
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  text-decoration: underline;
+  text-align: center;
+    
 }
+
+.nav-item{
+    margin-left: 15%;
+}
+
+
 
 
 @media (min-width: 992px) {
@@ -53,12 +67,17 @@ h1{
         margin-bottom: 5%;
     }
     span{
-        font-size: 100px;
+        font-size: 50px;
     }
     .card{
         background-image: url('chicken1.jpeg');
         background-repeat: no-repeat;
         background-size: 500px ;   
+    }
+    .nav-link{
+
+       position: relative;
+       left: 200px;
     }
 }
 
@@ -86,7 +105,18 @@ h1{
     background-size: 720px ;   
 }
 
+
+
+.nav-item{
+margin-right: 100px;
 }
+.navbar-nav{
+    background-color: rgb(5, 161, 5);
+}
+
+
+}
+
 
 @media (min-width: 522px) and (max-width: 767px) {
   .navbar-brand {
@@ -110,6 +140,8 @@ h1{
 .card{
     margin-top: 3.5%;
 }
+
+
 }
 
 @media (max-width: 521px) {
@@ -130,5 +162,14 @@ h1{
         background-repeat: no-repeat;
         background-size: 500px ;   
     }
+    
+    .nav-link{
+        position: relative;
+        right: 30px;
+    }
    
 }
+
+
+    
+   
